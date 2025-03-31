@@ -1,5 +1,6 @@
 import Image from "next/image"
 import logo from "../../public/logo.svg"
+import Link from "next/link"
 
 export default function Footer() {
 
@@ -13,10 +14,10 @@ export default function Footer() {
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0">
                         <li>
-                            <a href="#" className="hover:underline text-white me-4 md:me-6">Entrar/Cadastro</a>
+                            <Link href="/login" className="hover:underline text-white me-4 md:me-6">Entrar/Cadastro</Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">Sobre Nós</a>
+                            <Link href="#" className="hover:underline">Sobre Nós</Link>
                         </li>
                     </ul>
                 </div>
